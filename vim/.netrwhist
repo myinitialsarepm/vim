@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/Users/peter/.config/powerline'
+let g:netrw_dirhist_2='/private/etc/ppp'
+let g:netrw_dirhist_3='/private/etc/postfix'
+let g:netrw_dirhist_4='/Users/peter/.config/powerline'
+let g:netrw_dirhist_5='/Users/peter/.dotfiles/powerline'
+let g:netrw_dirhist_6='/Users/peter/.config/powerline'
