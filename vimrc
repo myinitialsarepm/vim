@@ -4,6 +4,13 @@ set nocompatible
 set backspace=indent,eol,start
 filetype plugin indent on
 set nu
+"set tabs to less extreme
+set shiftwidth=4
+set tabstop=4
+set softtabstop=4
+
+"default encryption method
+set cm=blowfish2
 
 "md is markdown
 autocmd BufNewFile,BufReadPost *.md set filetype=markdown
@@ -22,14 +29,16 @@ set noshowmode
 
 "***keymappings***
 nnoremap <F5> :!ctags -R --sort=yes --c++-kinds=+p --fields=+iaS --extra=+q .<CR>
-nnoremap <F6> :TagbarToggle<CR>
+nnoremap <silent> <F6> :TagbarToggle<CR>
 "Dash
 nnoremap <leader>d :Dash<CR>
 nnoremap <leader>D :Dash 
 "reload vimrc file
 nnoremap <leader>v :source ~/.vim/vimrc<CR>
+"enable spellcheck
+nnoremap <silent> <leader>s :set spell! spelllang=en_gb<CR>
 "toggle relative numbering with <F2>
-nnoremap <F2> :setlocal rnu!<CR>
+nnoremap <silent> <F2> :setlocal rnu!<CR>
 "toggle paste mode with <F3>
 set pastetoggle=<F3>
 "disable arrow keys
