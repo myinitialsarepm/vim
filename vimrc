@@ -38,7 +38,8 @@ nnoremap <leader>v :source ~/.vim/vimrc<CR>
 "enable spellcheck
 nnoremap <silent> <leader>s :set spell! spelllang=en_gb<CR>
 "toggle relative numbering with <F2>
-nnoremap <silent> <F2> :setlocal rnu!<CR>
+nnoremap <silent> <leader>r :setlocal rnu!<CR>
+nnoremap <silent> <leader>n :setlocal nu!<CR>
 "toggle paste mode with <F3>
 set pastetoggle=<F3>
 "disable arrow keys
