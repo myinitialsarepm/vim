@@ -28,3 +28,18 @@
 [submodule "bundle/vim-tidal"]
 	path = bundle/vim-tidal
 	url = https://github.com/munshkr/vim-tidal
+[submodule "bundle/puppet"]
+	path = bundle/puppet
+	url = https://github.com/rodjek/vim-puppet.git
+[submodule "bundle/logstash.vim"]
+	path = bundle/logstash.vim
+	url = https://github.com/robbles/logstash.vim
+[submodule "bundle/vimpager"]
+	path = bundle/vimpager
+	url = https://github.com/rkitover/vimpager.git
+[submodule "bundle/tabular"]
+	path = bundle/tabular
+	url = https://github.com/godlygeek/tabular.git
+[submodule "bundle/vimux"]
+	path = bundle/vimux
+	url = https://github.com/myinitialsarepm/vimux.git
