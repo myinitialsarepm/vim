@@ -31,6 +31,8 @@ set noshowmode
 "***keymappings***
 nnoremap <F5> :!ctags -R --sort=yes --c++-kinds=+p --fields=+iaS --extra=+q .<CR>
 nnoremap <silent> <F6> :TagbarToggle<CR>
+nnoremap <leader>t :Tabular /
+vnoremap <leader>t :Tabular /
 "Dash
 nnoremap <leader>d :Dash<CR>
 nnoremap <leader>D :Dash 
